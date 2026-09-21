@@ -10,4 +10,8 @@ public class Controller {
     public String index() {
         return "This is it for today ";
     }
+    @RequestMapping("/home/aakash")
+    public String aakash() {
+        return " Aakash is a good boy ";
+    }
 }
